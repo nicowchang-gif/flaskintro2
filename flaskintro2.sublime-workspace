@@ -1,0 +1,706 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"password"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"cre",
+				"create_app"
+			],
+			[
+				"r",
+				"relationship"
+			],
+			[
+				"form",
+				"form"
+			],
+			[
+				"lo",
+				"login"
+			],
+			[
+				"render",
+				"render_template"
+			],
+			[
+				"u",
+				"username"
+			],
+			[
+				"err",
+				"erros"
+			],
+			[
+				"re",
+				"render_template"
+			],
+			[
+				"reset",
+				"verify_reset_token"
+			],
+			[
+				"mai",
+				"mail"
+			],
+			[
+				"reset_",
+				"reset_token"
+			],
+			[
+				"ema",
+				"email"
+			],
+			[
+				"f",
+				"first"
+			],
+			[
+				"e",
+				"email"
+			],
+			[
+				"U",
+				"User"
+			],
+			[
+				"rese",
+				"reset_token"
+			],
+			[
+				"ren",
+				"render_template"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"m",
+				"method"
+			],
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"i",
+				"img"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"submit",
+				"SubmitField"
+			],
+			[
+				"TextArea",
+				"TextAreaField"
+			],
+			[
+				"login_ma",
+				"login_manager"
+			],
+			[
+				"Va",
+				"ValidationError"
+			],
+			[
+				"fie",
+				"validate_field"
+			],
+			[
+				"mo",
+				"models"
+			],
+			[
+				"d",
+				"datetime"
+			],
+			[
+				"s",
+				"small"
+			],
+			[
+				"le",
+				"legend"
+			],
+			[
+				"R",
+				"RegistrationForm"
+			],
+			[
+				"S",
+				"SubmitField"
+			],
+			[
+				"P",
+				"password"
+			],
+			[
+				"date",
+				"date_var"
+			],
+			[
+				"dt",
+				"date_var"
+			],
+			[
+				"check",
+				"check_writer"
+			],
+			[
+				"Work",
+				"classworkbook_reader"
+			],
+			[
+				"w",
+				"workbook"
+			],
+			[
+				"wb",
+				"wb"
+			],
+			[
+				"read_up",
+				"read_update_sheet"
+			],
+			[
+				"ot",
+				"ot_2"
+			],
+			[
+				"Wor",
+				"Workbook"
+			],
+			[
+				"she",
+				"sheet"
+			],
+			[
+				"create",
+				"create_sheet"
+			],
+			[
+				"out",
+				"out_file_pdf"
+			],
+			[
+				"xl",
+				"xlsx"
+			],
+			[
+				"tab",
+				"tab1"
+			],
+			[
+				"CTk",
+				"CTkFont"
+			],
+			[
+				"rea",
+				"read_update_sheet"
+			],
+			[
+				"nyspfl",
+				"nyspfl"
+			],
+			[
+				"ho",
+				"hours_1"
+			],
+			[
+				"o",
+				"ot_2"
+			],
+			[
+				"ot_1",
+				"ot_1"
+			],
+			[
+				"hours",
+				"hours_1"
+			],
+			[
+				"vac",
+				"vac"
+			],
+			[
+				"c",
+				"copyfile"
+			],
+			[
+				"proce",
+				"process_sheet"
+			],
+			[
+				"continue",
+				"continue"
+			],
+			[
+				"excep",
+				"except"
+			],
+			[
+				"tip",
+				"tip_amt"
+			],
+			[
+				"t",
+				"title"
+			],
+			[
+				"hea",
+				"header_dict"
+			],
+			[
+				"ser",
+				"server_name"
+			],
+			[
+				"printer",
+				"printer_info"
+			],
+			[
+				"des",
+				"destination_file"
+			],
+			[
+				"F",
+				"FileNotFoundError"
+			],
+			[
+				"Fi",
+				"FileNotFoundError"
+			],
+			[
+				"text",
+				"textvariable="
+			],
+			[
+				"Ca",
+				"Calibri"
+			],
+			[
+				"string_",
+				"string_var"
+			],
+			[
+				"mid_c",
+				"mid_canvas"
+			],
+			[
+				"font",
+				"font="
+			],
+			[
+				"left",
+				"LEFT"
+			],
+			[
+				"anchor",
+				"ANCHOR"
+			],
+			[
+				"ca",
+				"canvas"
+			],
+			[
+				"break",
+				"breakpoint"
+			],
+			[
+				"isD",
+				"isdir"
+			],
+			[
+				"pa",
+				"path"
+			],
+			[
+				"value",
+				"ValueError"
+			],
+			[
+				"de",
+				"denominator"
+			],
+			[
+				"card",
+				"cards"
+			],
+			[
+				"ra",
+				"random"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: pri",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Print to HTML: print as HTML via browser"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Build With: Python"
+			],
+			[
+				"li",
+				"Live Server Plus: Settings"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"LSP-",
+				"Plugin Development: Convert Syntax to .sublime-syntax"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Function"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 151.0,
+		"history":
+		[
+			"heroku login",
+			"python3",
+			"pip3 install virtualenv",
+			"python",
+			"from flaskblog import db",
+			"echo \"this is test\"",
+			"echo this is test"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/nicow/Python/FlaskIntroduction/templates/emails.html",
+		"/C/Users/nicow/Python/FlaskIntroduction/Run your App with Heroku web server SQL.txt",
+		"/C/Users/nicow/Python/FlaskIntroduction/venvX/.gitignore",
+		"/C/Users/nicow/Python/FlaskIntroduction/static/main.css",
+		"/C/Users/nicow/Python/FlaskIntroduction/requirementss.txt",
+		"/C/Users/nicow/Python/FlaskIntroduction/runtime.txt",
+		"/C/Users/nicow/Python/FlaskIntroduction/README.md",
+		"/C/Users/nicow/Python/FlaskIntroduction/FlaskIntroduction - How to run.txt",
+		"/C/Users/nicow/Python/FlaskIntroduction/app.py",
+		"/C/Users/nicow/Python/FlaskIntroduction/templates/index.html",
+		"/C/Users/nicow/Python/FlaskIntroduction/templates/base.html",
+		"/C/Users/nicow/Python/FlaskIntroduction/Run your App with Heroku web server.txt",
+		"/C/Users/nicow/Python/FlaskIntroduction/flask env set up.txt",
+		"/C/Users/nicow/Python/FlaskIntroduction/Procfile",
+		"/C/Users/nicow/Python/FlaskIntroduction/appY.py",
+		"/C/Users/nicow/Python/FlaskIntroduction/tmpove6l6t7.html",
+		"/C/Users/nicow/Python/MyPy_repository/FlaskIntroProject/forms.py",
+		"/C/Users/nicow/Python/MyPy_repository/FlaskIntroProject/app.py",
+		"/C/Users/nicow/Python/MyPy_repository/FlaskIntroProject/templates/index.html",
+		"/C/Users/nicow/Python/My_Flask_Proj/flaskproj/forms.py",
+		"/C/Users/nicow/Python/My_Flask_Proj/main.py",
+		"/C/Users/nicow/Python/My_Flask_Proj/flaskproj/routes.py",
+		"/C/Users/nicow/Python/MyPy_repository/FlaskIntroProject/venv/Lib/site-packages/pip/_vendor/distlib/index.py",
+		"/C/Users/nicow/Python/Flask Website/website/__init__.py",
+		"/C/Users/nicow/Python/Flask Website/website/auth.py",
+		"/C/Users/nicow/Python/Flask Website/website/templates/home.html",
+		"/C/Users/nicow/Python/Flask Website/website/models.py",
+		"/C/Users/nicow/Python/Flask Website/website/views.py",
+		"/C/Users/nicow/Python/Flask Website/website/templates/base.html",
+		"/C/Users/nicow/Python/Flask Website/website/static/index.js",
+		"/C/Users/nicow/Python/Flask Website/main.py",
+		"/C/Users/nicow/Python/Flask Website/website/templates/logout.html",
+		"/C/Users/nicow/Python/Flask Website/website/templates/login.html",
+		"/C/Users/nicow/Python/Flask Website/website/templates/sign_up.html",
+		"/C/Users/nicow/Python/Flask Website/sublime_editor_excerise.bat",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/models.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/__init__.py",
+		"/C/Users/nicow/Python/Flask_Blog/add_users.py",
+		"/C/Users/nicow/Python/Flask_Blog/add_users.sublime-workspace",
+		"/C/Users/nicow/Python/Flask Website/env/pyvenv_save.cfg",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/layout.html",
+		"/C/Users/nicow/Python/Flask Website/website/templates/login2.html",
+		"/C/Users/nicow/Python/Flask Website/website/templates/base2.html",
+		"/C/Users/nicow/Python/My_Flask_Proj/flaskproj/__init__.py",
+		"/C/Users/nicow/Python/Flask Website/website/forms.py",
+		"/C/Users/nicow/Python/Flask Website/fwrun.bat",
+		"/C/Users/nicow/Python/My_Flask_Proj/fprun.bat",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/static/main.css",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/email_list.html",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/home.html",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/login.html",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/users/routes.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/users/forms.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/email_list2.html",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/email3_list.html",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/emails.html",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/emailsx.html",
+		"/C/Users/nicow/Python/MyPy_repository/FlaskIntroProject/templates/emails.html",
+		"/C/Users/nicow/Python/MyPy_repository/FlaskIntroProject/forms.py.",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/posts/routes.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/main/routes.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/main/__init__.py",
+		"/C/Users/nicow/Python/MyPy_repository/FlaskIntroProject/app1.py",
+		"/C/Users/nicow/Python/MyPy_repository/FlaskIntroProject/templates/about.html",
+		"/C/Users/nicow/Python/MyPy_repository/FlaskIntroProject/templates/home.html",
+		"/C/Users/nicow/Python/MyPy_repository/FlaskIntroProject/instance/flaskintro.db",
+		"/C/Users/nicow/Python/MyPy_repository/FlaskIntroProject/static/main.css",
+		"/C/Users/nicow/Python/MyPy_repository/FlaskIntroProject/templates/index2.html",
+		"/C/Users/nicow/Python/MyPy_repository/FlaskIntroProject/app2.py",
+		"/C/Users/nicow/Python/MyPy_repository/FlaskIntroProject/templates/base.html",
+		"/C/Users/nicow/Python/Flask_Blog_saved1/01-Getting-Started/flaskblog.py",
+		"/C/Users/nicow/Python/Flask_Blog_saved1/02-Templates/flaskblog.py",
+		"/C/Users/nicow/Python/Flask_Blog_saved1/03-Forms-and-Validation/flaskblog.py",
+		"/C/Users/nicow/Python/Flask_Blog_saved1/03-Forms-and-Validation/forms.py",
+		"/C/Users/nicow/Python/Flask_Blog/show_users.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/add_users.py",
+		"/C/Users/nicow/Python/Flask_Blog/run.py",
+		"/C/Users/nicow/Python/Flask_Blog/instance/add_users.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/users/add_users.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/venv/add_users.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/users/__init__.py",
+		"/C/Users/nicow/Python/MyPy/Payroll_Proj/excel/repository.py",
+		"/C/Users/nicow/Python/Flask_Blog/run_waitress.py",
+		"/C/Users/nicow/Python/MyPy/Payroll_Proj/excel/__init__.py",
+		"/C/Users/nicow/Python/MyPy/Payroll_Proj/serendipity_payroll_main.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/errors/handlers.py",
+		"/C/Users/nicow/Python/Flask_Blog/fbrun.bat",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/errors/test.py",
+		"/C/Users/nicow/AppData/Local/Temp/33beef1d-861a-44af-842f-f87954bf16f1_v3.0.2 source code.zip.6f1/Pylons-waitress-b11ae72/src/waitress/__main__.py",
+		"/C/Users/nicow/AppData/Local/Temp/bf3a8b75-9c73-4044-95d8-1e5434357cfc_v3.0.2 source code.zip.cfc/Pylons-waitress-b11ae72/src/waitress/__init__.py",
+		"/C/Users/nicow/AppData/Local/Temp/ebfafa61-8ac1-4b27-99f1-fad88d2aefc0_waitress-3.0.2.tar.gz.fc0/waitress-3.0.2/setup.py",
+		"/C/Users/nicow/AppData/Local/Temp/e40fe9a0-2988-4a7c-a857-843b75a6b32d_waitress-3.0.2.tar.gz.32d/waitress-3.0.2/setup.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/erros/handlers.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/errors/500.html",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/errors/403.html",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/errors/404.html",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/venv/Lib/site-packages/pip/_vendor/rich/errors.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/erros/__init__.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/config.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/users/utils.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/user_posts.html",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/register.html",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/post.html",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/forms.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/posts/forms.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/routes.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/posts/__init__.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/reset_request.html",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/reset_token.html",
+		"/C/Users/nicow/Python/Payroll_Proj/serendipity versions/serendipity_payroll_gpt.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/create_post.html",
+		"/C/Users/nicow/Python/Payroll_Proj/serendipity_payroll_main.py",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/saved/home.html",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/templates/account.html",
+		"/C/Users/nicow/Python/Flask_Blog/flaskblog/saved/account.html",
+		"/C/Users/nicow/Python/Payroll_Proj/serendipity_payroll.py",
+		"/C/Users/nicow/Python/FlaskBlogWebApp/flaskblog/routes.py",
+		"/C/Users/nicow/Python/FlaskBlogWebApp/flaskblog/models.py",
+		"/C/Users/nicow/Python/FlaskBlogWebApp/run.py",
+		"/C/Users/nicow/Python/FlaskBlogWebApp/flaskblog/__init__.py",
+		"/C/Users/nicow/Python/FlaskBlogWebApp/flaskblog/templates/account.html",
+		"/C/Users/nicow/Python/FlaskBlogWebApp/flaskblog/templates/layout.html",
+		"/C/Users/nicow/Python/FlaskBlogWebApp/flaskblog/forms.py",
+		"/C/Users/nicow/Python/FlaskBlogWebApp/flaskblog/templates/home.html",
+		"/C/Users/nicow/Python/FlaskBlogWebApp/requirement.txt",
+		"/C/Users/nicow/Python/FlaskBlogWebApp/windows.bat",
+		"/C/Users/nicow/Python/flaskblog/__init__.py",
+		"/C/Users/nicow/Python/flaskblog/templates/account.html"
+	],
+	"find":
+	{
+		"height": 29.1428571429
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.1428571429
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "flaskintro2.sublime-project",
+	"replace":
+	{
+		"height": 54.8571428571
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"forms.py"
+			],
+			[
+				"error",
+				"flaskblog\\venv\\Lib\\site-packages\\pip\\_vendor\\rich\\errors.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
