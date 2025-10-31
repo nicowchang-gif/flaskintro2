@@ -427,6 +427,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/nicow/Python/FlaskIntro2/hello.py",
 		"/C/Users/nicow/Python/FlaskIntroduction/templates/emails.html",
 		"/C/Users/nicow/Python/FlaskIntroduction/Run your App with Heroku web server SQL.txt",
 		"/C/Users/nicow/Python/FlaskIntroduction/venvX/.gitignore",
@@ -553,8 +554,7 @@
 		"/C/Users/nicow/Python/FlaskBlogWebApp/flaskblog/templates/home.html",
 		"/C/Users/nicow/Python/FlaskBlogWebApp/requirement.txt",
 		"/C/Users/nicow/Python/FlaskBlogWebApp/windows.bat",
-		"/C/Users/nicow/Python/flaskblog/__init__.py",
-		"/C/Users/nicow/Python/flaskblog/templates/account.html"
+		"/C/Users/nicow/Python/flaskblog/__init__.py"
 	],
 	"find":
 	{
@@ -641,6 +641,13 @@
 		[
 		]
 	},
+	"output.exec":
+	{
+		"height": 206.0,
+		"history":
+		[
+		]
+	},
 	"output.find_results":
 	{
 		"height": 0.0,
@@ -693,6 +700,7 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"lsp_show_inlay_hints": false
 	},
 	"show_minimap": true,
 	"show_open_files": true,

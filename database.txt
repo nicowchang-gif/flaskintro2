@@ -1,0 +1,39 @@
+To create a SQLite database from python shell:
+type python from command line or env 
+(env) python
+type app_name import app, db
+>>> from hello import app, db
+>>> app.app_context().push()
+>>> db.create_all()
+
+
+To create a MySQL database from python shell:
+C:> start virtual environment(env)
+(env) python
+type app_name import app, db 
+>>> from hello import app, db
+>>> app.app_context().push()
+>>> db.create_all()
+
+
+To alter/migrate MySQL table:
+start virtual environment (env)
+(env) pip install Flask-Migrate
+
+declare flask_migrate in python shell
+(.py) from flask_migrate import Migrate
+>>> exit
+
+Start initial migration in (env)
+This command creates migrations folder and alembic file
+(env) flask db init
+exit
+
+Create flask migration source code in (env) and migration description
+(env) flask db migrate -m "Initial Migration"
+
+Run migration upgrde module
+(env) flask db upgrade
+
+After this step, you can push the migration of other columns just by running:
+(env) flask db upgrade

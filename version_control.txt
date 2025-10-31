@@ -7,7 +7,7 @@ git init
 
 create a new repository on the command line
 ===========================================
-echo "# flaskintro2" >> README.md
+pip3 freeze flaskintro2 >> README.md
 git init
 git add README.md
 git commit -m "first commit"

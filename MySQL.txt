@@ -1,0 +1,9 @@
+ROOT:MySQLPassword
+MySQLUser:MySQLUserPassword
+Classic MySQL protocol connections:
+read/write port 6446
+Read port 6447
+X Protocol protocol connections:
+read/write port 6448
+Read port 6449
+
