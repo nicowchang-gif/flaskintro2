@@ -1,0 +1,52 @@
+1.  change app name to app.py
+2.  go to Heroku CLI
+3.  download Heroku CLI
+4.  exit window shell & restart 
+5.  set environment back on
+6.  check version:  heroku -v
+7.  (we need to reset development environment) by typing:
+8.  pip install gunicorn
+9.  pip install psycopg2
+10.	pip freeze
+11. pip freeze > requirements.txt
+12. echo web: gunicorn app:app > Procfile
+13. Log In to Heroku:  heroku login
+	(to check addon plans: heroku addons:plans heroku-postgresql)
+
+14. Create a heroku app:   heroku create flaskintro2
+15. copy/paste url to web browser: https://flaskintro2-f3d9f3959b90.herokuapp.com/
+
+16. push our app and database:
+heroku addons:create heroku-postgresql:essential-0 --app flaskintro2
+
+===
+Creating heroku-postgresql:essential-0 on ⬢ flaskintro2... ~$0.007/hour (max $5/month)
+Database should be available soon
+postgresql-deep-76883 is being created in the background. The app will restart when complete...
+
+=== postgresql-deep-76883
+
+Attachments:  flaskintro2::DATABASE
+Installed at: Mon Nov 17 2025 10:24:45 GMT-0500 (Eastern Standard Time)
+Max Price:    $5/month
+Owning app:   flaskintro2
+Plan:         heroku-postgresql:essential-0
+Price:        ~$0.007/hour
+State:        created
+
+
+17. get url for our database:
+heroku config --app flaskintro2
+
+(env) C:\Users\nicow\Python\FlaskIntro2>heroku config --app flaskintro2
+=== flaskintro2 Config Vars
+
+DATABASE_URL: postgres://ucum8jhn266i98:pe2bb33a8f223e7660eacbd839ea6f61edea34f31832e05c281bb14220e557e4a@c3v5n5ajfopshl.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/dd47inm50o3ef1
+
+18. make changes in the app.
+	database uri, Text(), etc
+
+19.	git add .
+20. git commit -am "heroku postgresql changes"
+21. git push
+22. git push heroku main

@@ -56,7 +56,7 @@ ckeditor =CKEditor(app)
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:MySQLPassword@localhost/mysql_flaskintro2'  
 
 # Postgresql
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://ucum8jhn266i98:pe2bb33a8f223e7660eacbd839ea6f61edea34f31832e05c281bb14220e557e4a@c3v5n5ajfopshl.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/dd47inm50o3ef1'  
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://ucum8jhn266i98:pe2bb33a8f223e7660eacbd839ea6f61edea34f31832e05c281bb14220e557e4a@c3v5n5ajfopshl.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/dd47inm50o3ef1'  
 
 # do not track modification to reduce overhead
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
