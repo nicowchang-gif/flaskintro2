@@ -1,5 +1,9 @@
-LOGIN:
-git config --global user.name "Your Name"
+website:
+login to github.com using continue with google
+
+
+console LOGIN:
+git config --global user.name "nicowchang"
 git config --global user.email "nico.w.chang@gmail.com"
 git config --global push.default matching
 git config --global alias.co checkout
@@ -9,8 +13,8 @@ create a new repository on the command line
 ===========================================
 pip3 freeze flaskintro2 >> README.md
 git init
-git add README.md
-git commit -m "first commit"
+git add .
+git commit -m "commit description"
 git branch -M main
 git remote add origin https://github.com/nicowchang-gif/flaskintro2.git
 git push -u origin main
@@ -18,7 +22,10 @@ git push -u origin main
 PUSH FROM COMMAND LINE:
 or push an existing repository from the command line
 ====================================================
-git remote add origin https://github.com/nicowchang-gif/		flaskintro2.git
-## git remote add origin git@github.com: flatplanet/flaksintro2.git
+pip3 freeze flaskintro2 >> README.md
+git init
+git add .
+git commit -m "commit description"
+git remote add origin https://github.com/nicowchang-gif/flaskintro2.git
 git branch -M main
 git push -u origin main

@@ -1,0 +1,116 @@
+Modulate a large application
+
+
+Configuration Variables into its own file
+Application Factory
+Break oand Split up itno to Blueprints
+Different functionality of appliction into their own section
+
+
+Routes:
+Create a directory named users
+
+Routes for posts:
+Create a directory named posts
+
+Routes for neither:
+Create a directory named main
+
+Make each directory to be packages by creating a __init__.py file in each of the directories
+
+Create route.py file for routes and functionalities in each of the directories.  Fort example, routes.py in users directory will have routes for users and authentication.   routes.py in posts directory will have routes for posts. etc
+
+For each of the directories, create forms.py file for forms
+
+
+Create utils.py in users directory for save_pictues, password function, etc
+
+
+for routes.py file within users pacakage, create a users blueprint
+1. import Blueprint class from flask:  
+2. from flask import Blueprint
+   users = Blueprint('users', __name__) 
+3. from existing routes.py file cut and paste the routes that has to do with users to routes.py file 
+   change @app.route(...) to @users.route(...)
+
+
+for routes.py file within posts pacakage, create a posts blueprint
+1. import Blueprint class from flask - from flask import Blueprint
+2. from flask import Blueprint
+   posts = Blueprint('posts', __name__) 
+   change @app.route(...) to @posts.route(...)
+
+
+for routes.py file within main pacakage, create a main blueprint
+1. import Blueprint class from flask - from flask import Blueprint
+2. from flask import Blueprint
+   main = Blueprint('main', __name__) 
+   change @app.route(...) to @main.route(...)
+
+
+for forms.py file within users pacakage, create a forms.py file and copy paste users related form classes
+
+for forms.py file within posts pacakage, create a forms.py file and copy paste posts related form classes
+
+copy/paste imports to its relative python files
+
+
+copy/paste environmental parameters used in application
+edit environmental.bat file and add parameters used in class Config  
+run environmental.bat file to update values in system environment variables
+
+   in .bat file
+   export SECRET_KEY='password'
+   export SQLALCHEMY_DATABASE_URI='sqlite:///site.db'
+   export EMAIL_USER='nicowchang@optimum.net'
+   export MAIL_PASSWORD='email_password'
+
+   in app.py
+   import Config: from flaskblog.config import Config
+   app = Flask(__name__)
+   app.config.from_object(Config)
+
+
+1) create a app factory function in app.py  - 
+   def create_app(config_class=Config)
+
+2) remove word 'app' so that we have skeleton instances tha are not yet initialized because we are going to initialize the 'app'in create_app function:
+
+   db = SQLAlchemy(app) ==> db = SQLAlchemy()
+   bcrypt = Bcrypt(app) ==> bcrypt = Bcrypt()
+   login_manager = LoginManager(app) ==> login_manager = LoginManager()
+   mail = Mail(app) ==> mail = Mail()
+
+3) create 'app' instance and initialize other instances
+
+def create_app(config_class=Config):
+
+   app = Flask(__name__)
+   app.config.from_onject(Config)
+
+   db.init_app(app)
+   bcrypt.init_app(app)
+   login_manager.init_app(app)
+   mail.init_app(app)
+
+   from flaskbog.users.routes import users
+   from flaskbog.posts.routes import posts
+   from flaskbog.main.routes import main
+
+   app.register_bleprint(user)
+   app.register_bleprint(post)
+   app.register_bleprint(main)
+
+   return app
+
+4) we need to import current_app from flask and for all statements where we use 'app' variable, it must be replaced with new variable 'current_app'.
+   
+   from flask import current_app
+
+   app.xxxxx should be current_app.xxxx
+
+5)  we need to add this statement in init.py file
+   
+   app = create_app()
+   if __name__ == '__main__':
+      app.run(debug=True)

@@ -29,9 +29,6 @@
 					<strong>User Id: </strong>{{ current_user.id }}<br/>
 					<strong>Email: </strong>{{ current_user.email }}<br/>
 					<strong>Favorite Color: </strong>{{ current_user.favorite_color }}<br/>
-					<strong>About Author: </strong>{{ current_user.about_author }}<br/>
-					<strong>Profile Pic: </strong>{{ current_user.profile_pic }}<br/>
-					
 					<strong>Date Joined: </strong>{{ current_user.date_created }}<br/><br/>
 
 					<a href="{{ url_for('logout')}}" class="btn-outline-dark btn-sm">Logout</a>
@@ -55,38 +52,29 @@
 		<strong>Update Profile</strong>
 	</div>
 	<div class="card-body">
-		<form action="/dashboard" method="POST" enctype="multipart/form-data">
+		<form action="/dashboard" method="POST">
 			{{ form.hidden_tag() }}
 
 			{{ form.name.label(class="form-label") }}
 			{{ form.name(class="form-control",
-			value=record_to_update.name) }}
+			value=current_user.name) }}
 
 			{{ form.username.label(class="form-label") }}
 			{{ form.username(class="form-control",
-			value=record_to_update.username) }}
+			value=current_user.username) }}
 
 			{{ form.email.label(class="form-label") }}
 			{{ form.email(class="form-control",
-			value=record_to_update.email) }}
+			value=current_user.email) }}
 
 			{{ form.favorite_color.label(class="form-label") }}
 			{{ form.favorite_color(class="form-control",
-			value=record_to_update.favorite_color) }}
+			value=current_user.favorite_color) }}
 			<br/>
 			
 			{{ form.about_author.label(class="form-label") }}
-			<!-- {{ form.about_author(class="form-control",
-			value=record_to_update.about_author) }} -->
-
-			<textarea name="about_author" class="form-control">{{ record_to_update.about_author }}
-			</textarea>
-			<br/>
-
-
-			{{ form.profile_pic.label(class="form-label") }}
-			{{ form.profile_pic(class="form-control",
-			value=record_to_update.profile_pic) }}
+			{{ form.about_author(class="form-control",
+			value=current_user.about_author) }}
 			<br/>
 			
 			{{ form.submit(class="btn-outline-dark btn-sm") }}

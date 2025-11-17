@@ -17,12 +17,13 @@
 
 {%  for post in posts %}
 	<div class="shadow p-3 mb-5 bg-body rounded">
-	<h2><a href="{{ url_for('post', id=post.id) }}">{{ post.title }}</a></h2> 
+	<h2><a href="{{ url_for('post', id=post.id) }}">{{ post.title }}</a></h2>
+	<small>By:  {{ post.poster.name }}</small><br/>
 	<br/>
-		{{ post.author }} <br/>
+		<!-- {{ post.author }} <br/> -->
 		{{ post.slug }} <br/>
 		{{ post.date_posted }} <br/><br/>
-		<!-- {{ post.content }} <br/><br/>  -->
+		{{ post.content|safe }} <br/><br/> 
 
 		<!-- specific post view -->
 		<a href="{{ url_for('post', id=post.id) }}" class="btn-outline-secondary btn-sm">View Post</a>

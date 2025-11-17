@@ -18,10 +18,10 @@
 <div class="shadow p-3 mb-5 bg-body rounded">
 <h2>{{ post.title }}</h2><br/>
 
-	{{ post.author }} <br/>
 	{{ post.slug }} <br/>
 	{{ post.date_posted }} <br/>
-	{{ post.content }} <br/><br/>
+	{{ post.content|safe }} <br/>
+	{{ post.poster.about_author }} <br/><br/>
 
 	<a href="{{ url_for('edit_post', id=post.id) }}" class="btn-outline-secondary btn-sm">Edit Post</a>
 </div>
